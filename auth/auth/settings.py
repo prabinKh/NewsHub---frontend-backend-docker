@@ -258,9 +258,9 @@ EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_USE_SSL = False
-EMAIL_HOST_USER = 'djangoforgithub123@gmail.com'
-EMAIL_HOST_PASSWORD = 'qjpt wtip cpyn jwaq'  # Your App Password
-DEFAULT_FROM_EMAIL = 'djangoforgithub123@gmail.com'
+EMAIL_HOST_USER = 'example@gmail.com'
+EMAIL_HOST_PASSWORD = 'aaaa aaa aaa aaa'  # Your App Password
+DEFAULT_FROM_EMAIL = 'example@gmail.com'
 EMAIL_TIMEOUT = 30
 
 # ==================== CUSTOM SETTINGS ====================
