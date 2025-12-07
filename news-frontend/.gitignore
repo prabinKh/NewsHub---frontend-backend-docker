@@ -1,0 +1,181 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+!.env.example
+!.env.sample
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Log files
+*.log
+
+# Build outputs
+dist/
+build/
+
+# Cache directories
+.cache/
+.tmp/
+
+# IDE specific files
+*.sublime-project
+*.sublime-workspace
+
+# Temporary files
+*.tmp
+*.temp
+
+# Package lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ESLint
+.eslintcache
+
+# TypeScript
+*.tsbuildinfo
+
+# Jest
+jest.config.js
+
+# Nuxt.js
+.nuxt/
+
+# Vue.js
+.vuepress/dist/
+
+# Svelte
+.svelte-kit/
+
+# Gatsby
+.public/
+
+# Expo
+.expo/
+
+# TSDX
+.tsdxtmp/
+
+# Storybook
+storybook-static/
+
+# Netlify
+.netlify/
+
+# Surge
+.surge/
+
+# Wine
+*.exe
+*.msi
+
+# Mac files
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Windows files
+Thumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msp
+*.msm
+
+# Linux files
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# Swap files
+*.swp
+*.swo
+*.tmp
+*.temp
+
+# Vim
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+
+# Emacs
+\#*
+\#*\#
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# IntelliJ IDEA
+.idea/*
+!.idea/codeStyles/
+!.idea/inspectionProfiles/
+!.idea/runConfigurations/
+!.idea/vcs.xml
+!.idea/modules.xml
+!.idea/misc.xml
+
+# EditorConfig
+.editorconfig
+
+# Prettier
+.prettierignore
